@@ -104,7 +104,7 @@ $clever = sendPostData($url_send, $str_data);
 {
 SendMessage($chat_id,"*Welcome* `#$name`");
 }
-elseif($textmessage == '/minecraft')
+if($textmessage == '/minecraft')
 {
 SendMessage($chat_id,"*$clever*");
 }
